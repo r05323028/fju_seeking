@@ -1,0 +1,33 @@
+{
+  "name": "fju-seeking",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "format": "biome format --write ."
+  },
+  "dependencies": {
+    "@slidev/cli": "^51.5.0",
+    "@slidev/theme-apple-basic": "^0.25.1",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "animejs": "^4.0.0",
+    "echarts": "^5.6.0",
+    "echarts-wordcloud": "^2.1.0",
+    "element-plus": "^2.9.7",
+    "photoswipe": "^5.4.4",
+    "slidev-addon-fancy-arrow": "^0.8.0",
+    "slidev-addon-rabbit": "^0.4.0",
+    "slidev-theme-unicorn": "^1.1.2",
+    "vue": "^3.5.13",
+    "vue-echarts": "^7.0.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "playwright-chromium": "^1.52.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-slidev": "^1.0.5"
+  }
+}
