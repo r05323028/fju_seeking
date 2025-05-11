@@ -4,6 +4,8 @@ command = "npm run build"
 
 [build.environment]
 NODE_VERSION = "20"
+CI = "1"
+NPM_FLAGS = "--no-optional"
 
 [[redirects]]
 from = "/.well-known/*"
